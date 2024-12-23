@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit-Chat Application</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body style="font-family: 'Poppins';">
+
+    <h2 style="text-align: center; font-weight: 800;">Chit-Chat Application</h2>
+    <nav>
+        <img class="logo" src="logo.png" alt="">
+    </nav> <br>
+    <div class="container">
+        <!-- <div class="message right">Harsh : How are you?</div>
+        <div class="message left">Manthan : I'm fine.</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type a Message">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; 2024 Harsh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
